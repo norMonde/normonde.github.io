@@ -2098,7 +2098,7 @@ div.mc-image {
     position:relative;
     padding:30px;
     padding-left:100px;
-    background: #000000;
+    background: #111111;
     border-radius:10px;
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
     -webkit-transition:all .3s ease-out;
