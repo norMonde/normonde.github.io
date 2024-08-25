@@ -1134,6 +1134,10 @@ margin-bottom: 5px;
     color: #3b5998;
 }
 
+.team_box ul li a.fa-instagram:hover {
+    color: #3b5998;
+}
+
 .team_box ul li a.fa-pinterest:hover {
     color: #cb2026;
 }
@@ -1306,6 +1310,10 @@ transition: all .3s;
 
 .facebook a:hover {
     color: #3b5998;
+}
+
+.instagram a:hover {
+    color: #C32AA3;
 }
 
 .pinterest a:hover {
