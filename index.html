@@ -281,9 +281,28 @@
 			  
         &nbsp;
         <ul class="social_links">
-          <h4 style="color: white; padding-left: 40px;">Mes réseaux</h4>
+          <h4 style="color: white; padding-left: 40px;">Mes réseaux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of Visits:  <span id="visitCount">0</span>.</p></h4>
             <li class="instagram animated bounceIn wow delay-02s"><a href="https://www.instagram.com/ronanlenormand/"><i class="fa fa-instagram"></i></a></li>
           </ul>
+
+          <script>
+              // Get the visit count from local storage
+              let visitCount = localStorage.getItem('visitCount');
+      
+              // If no visits found, set to 0
+              if (!visitCount) {
+                  visitCount = 0;
+              }
+      
+              // Increment the visit count
+              visitCount++;
+      
+              // Update local storage with the new count
+              localStorage.setItem('visitCount', visitCount);
+      
+              // Display the visit count on the webpage
+              document.getElementById('visitCount').textContent = visitCount;
+          </script>
     </section>
   <div class="container">
     <div class="footer_bottom"><span>Copyright © 2024,    NorMonde Thumb</span> </div>
